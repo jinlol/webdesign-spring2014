@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+	header h1 {
+		position: relative;
+		display:block;
+		margin: 10px auto;	
+	}
+	header ul {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+	}
+	header li {
+		display: none;
+	}
+	nav:hover li {
+		display: block;
+	}
+
+	.column {
+		display: block;
+	}
+	.first {
+		width: 100%;
+	}
+	.second {
+		width: 100%;
+	}
+	.footer-center {
+		text-align: center;
+	}
+}

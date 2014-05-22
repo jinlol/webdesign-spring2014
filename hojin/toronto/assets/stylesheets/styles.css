@@ -44,6 +44,10 @@ header a {
 	color:#000;
 	text-decoration: none;
 }
+.menu {
+	display: none;
+}
+
 .content {
 	width: 80%;
 	max-width: 1000px;
@@ -54,8 +58,8 @@ header a {
 	text-align: center;
 }
 .content img {
-	width: 30%;
-	height: 1000px;
+	width: 300px;
+	height: 200px;
 	display: inline-block;
 }
 
@@ -77,25 +81,3 @@ footer {
 .socialmedia-icons img {
 	width:30px;
 }
-/*footer {
-	width: 80%;
-	max-width: 1000px;
-	display: block;
-	margin: 0 auto;
-}
-.footer-about {
-	float:left;
-	width: 30%;
-	margin-right: 5%;
-}
-.footer-contact {
-	float: left;
-	width: 65%;
-}
-.socialmedia-icons {
-	text-align: center;
-}
-.socialmedia-icons img {
-	width:20px;
-	display: inline-block;
-}*/
