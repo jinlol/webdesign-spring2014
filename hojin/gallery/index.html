@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/stylesheets/styles.css">
+		<script src="assets/javascript/jquery.js"></script>
+		<title>Ontario Gallery</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Ontario Gallery</h1>
+		</header>
+
+		<div class="container">
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.acc.com/chapters/ontario/images/ontario_2.jpeg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://ehaulers.com/uploads/Provinces%20images/Ontario.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.destination360.com/north-america/canada/toronto/images/s/lake-ontario.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.toursquebec.com/images/ontariofrenchcan.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://wikitravel.org/upload/shared//thumb/d/d5/Ontario_regions_map.png/350px-Ontario_regions_map.png" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://robertmoffatt115.files.wordpress.com/2010/07/ontario-place-3-lr1.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.destination360.com/north-america/canada/images/s/ontario.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://blog.caasco.com/wp-content/uploads/2013/06/Killarney-Provincial-Park-Ontario.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/0/07/HamiltonOntarioSkylineB.JPG" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/0/01/HamiltonOntarioSkylineC.JPG" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.museumsontario.ca/sites/default/files/styles/featured-photo-full/public/images/sj_looking_west%20sq_3_0.jpg" alt="">
+			</div>
+			<div class="photo">
+				<div class="description"><p>You can see CN tower</p></div>
+				<img src="http://www.blogto.com/upload/2012/07/20120726-OntarioPlace-Aerial.jpg" alt="">
+			</div>
+		</div>
+
+		<footer>
+			
+		</footer>
+		<script>
+			var clicked = 1;
+			$(".photo").click(function() {
+				if (clicked == 1) {
+					$(this).find(".description").css("visibility","visible");
+					clicked = 2;
+				} else {
+					$(this).find(".description").css("visibility","hidden");
+					clicked = 1;
+				}			
+			})
+		</script>
+	</body>
+</html>

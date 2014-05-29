@@ -1,0 +1,90 @@
+body {
+	margin:0;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+
+/*HEADER*/
+header {
+	width:100%;
+	height: 100px;
+	text-align: center;
+	background-color: #ffecec;
+}
+
+.flag {
+	width:100px;
+	float:left;
+}
+
+.logo {
+	position: relative;
+	left:50%;
+	top:25px;
+	margin-left: -113px;
+}
+
+header h1 {
+	float:left;
+	margin:0;
+	line-height: 51px;
+	padding-left: 20px;
+}
+
+/*BODY*/
+.container {
+	width:80%;
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+nav {
+	float: left;
+	width: 20%;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.content {
+	float: left;
+	width: 80%;
+	margin-top:20px;
+}
+.map {
+	width: 200px;
+	float:left;
+	margin-right: 20px;
+}
+.globe {
+	width:200px;
+	float:right;
+	margin-left:20px;
+}
+
+/*FOOTER*/
+footer {
+	width:80%;
+	max-width: 1200px;
+	display: block;
+	margin:0 auto;
+	padding-top: 100px;
+}
+.twitter {
+	width:30px;
+	float:left;
+}
+footer p {
+	float:left;
+	margin:0;
+	line-height: 30px;
+	margin-left: 10px;
+}
+
